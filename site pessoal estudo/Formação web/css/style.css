@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sora:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    /*Fazer com que os elementos filhos não saiam de dentro*/
+    box-sizing: border-box;
+    background-color: rgb(63, 62, 62);
+    color: #f6f6f6;
+    
+}
+
+h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 36px;
+}
+
+p{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.destaque-titulo{
+    color: #6860F5;
+
+}
+ 
+.image{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;  
+    overflow: hidden;
+    box-shadow: 20px 20px 5px 5px rgb(28, 27, 27);
+}
+
+img{
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    /*height: ;*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+hr{
+    color: #f6f6f6;
+    height: 10px;
+    background-color: #f6f6f6;
+    width: 90%;
+    opacity: 50%;
+    border-radius: 10px;
+    
+}
+
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_links_botao{
+    background-color: #6860F5;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    padding: 15px 0px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 900;
+    text-decoration: none;
+}
